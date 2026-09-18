@@ -1,24 +1,29 @@
-//
-//  ContentView.swift
-//  Food Explorer App
-//
-//  Created by Ramim Hossain on 19/09/2026.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            // Tab 1: Explore Page
+            ExploreView()
+                .tabItem {
+                    Label("Explore", systemImage: "magnifyingglass")
+                }
+            
+            // Tab 2: Favorites Page
+            FavoritesView()
+                .tabItem {
+                    Label("Favorites", systemImage: "heart.fill")
+                }
+            
+            // Tab 3: Profile Page
+            ProfileView()
+                .tabItem {
+                    Label("Profile", systemImage: "person.fill")
+                }
         }
-        .padding()
     }
 }
 
 #Preview {
     ContentView()
-}
+}   
