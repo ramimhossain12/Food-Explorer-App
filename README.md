@@ -3,7 +3,15 @@
 **Food Explorer App** is a modern and visually appealing iOS application built with SwiftUI. This project demonstrates core and advanced SwiftUI concepts, including layout composition, state management, screen navigation, modal sheets, and interactive alerts.
 
 ---
+<h3 align="center">📱 App Screenshots</h3>
 
+<p align="center">
+  <img src="Food Explorer App/Screenshot/1.jpg" width="30%" alt="Explore Screen" />
+  &nbsp;&nbsp;
+  <img src="Food Explorer App/Screenshot/2.png" width="30%" alt="Favorites Screen" />
+  &nbsp;&nbsp;
+  <img src="Food Explorer App/Screenshot/3.png" width="30%" alt="Profile Screen" />
+</p>
 ## 🚀 Key Features
 
 * **Explore Tab:** 
